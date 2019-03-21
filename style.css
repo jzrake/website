@@ -25,22 +25,22 @@ li {
     font-size: 16;
 }
 p {
-    font-size: 18;
+    font-size: 20;
 }
 p img {
     width: 60%;
 }
 figure {
     padding: 0;
-    margin: 0;
+    margin: 60 0 60 0;
 }
 figure img {
     width: 100%;
-    box-shadow: 10px 10px 25px grey;
+    box-shadow: 8px 8px 15px grey;
 }
 figure figcaption {
     font-size: 14;
-    margin: 20 0 20 0;
+    margin: 20 0 0 0;
 }
 blockquote {
     margin: 40 0 0 0;

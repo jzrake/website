@@ -1,112 +1,110 @@
-### Still writing this...
+### Preface
+This article is adapted from a colloquium I gave at [Bard College](https://www.bard.edu) in March, 2019. I had a great time doing the research for that talk, so I decided to collect some of the material to share here. It is mostly intended for a general audience, but an undergraduate physics background might be helpful in places. It might also be helpful to first-year graduate students who are beginning a research program in multi-messenger astronomy. There are links to a handful of historical papers throughout the article, which you might consider following if you're a graduate student.
 
-<!-- ### Preface
-This article is adapted from a colloquium I gave at [Bard College](https://www.bard.edu) in March, 2019. I had a great time doing the research for that talk, so I decided to collect some of the material to share here. It is mostly intended for a general audience, but some undergraduate physics background might be helpful in places.
-
-I also have in mind first-year graduate students who are beginning a research program in transient or multi-messenger astronomy. There are links to a handful of historical papers throughout the talk, which you might consider following if you're a graduate student.
-
-My goal is to add some historical context to the advances made in high-energy astrophysics following the first detection, in Agust 2017, of gravitational waves from a coalescing binary neutron star system. This event has sparked a renewed interest in many aspects of gamma-ray burst research. It is also, hopefully, only a glimpse of the discovery science that will be enabled by upcoming detections of similar events, both by gravitational wave observatories, and across the electromagnetic spectrum.
+My goal is to add some historical context to a few of the advances made in high-energy astrophysics following the first detection, in Agust 2017, of gravitational waves from a coalescing binary neutron star system. This event sparked a renewed interest in many aspects of gamma-ray burst research. It is also, hopefully, only a glimpse of the discovery science that will be enabled by upcoming detections of similar events, observed in both gravitational and electromagnetic waves.
 
 
 ### Flashes in the sky
-My particular area of research involves events known as gamma-ray bursts, or GRB's. GRB's are flashes of high energy radiation coming to us from deep space. Lucky for me, GRB's have been the subject of much of the recent excitement, and we are at a stage where an increasing number of the major questions about their origins are being resolved.
+__Gamma-ray bursts__ (GRB's) are flashes of high energy radiation coming to us from deep space. Of course, what they really are, is now understood quite well. But it's more fun to tell their story from the beginning, and put together the clues that led to our modern understanding of what they are.
 
-To appreciate the significance of the current events, I feel it is most enlightening to visit the history of how GRB's were first discovered, and how our modern understanding of what they are has evolved.
+The story of how people first became aware of gamma-ray bursts goes back to the Cold War, when the US and the Soviet Union were locked in an escalating contest to produce the biggest, most threatening nuclear detonations.
 
-
-### The Ivy Mike test of 1952
 <figure>
     <img src="{{ root }}/static/history-of-grbs/ivy-mike.png">
     <figcaption>The Ivy Mike Test, carried out by the US over the Pacific Ocean in 1952. This was the first detonation of a thermonuclear weapon.</figcaption>
 </figure>
 
-The story of how people first became aware of gamma-ray bursts goes back to the Cold War, when the US and the Soviet Union were locked in an escalating contest to produce the biggest, most threatening nuclear detonations.
-
-This is an image of the Ivy Mike test, carried out over the Pacific Ocean by the US in 1952. This was the first test of a thermonuclear device - an H bomb. It was different from the tests that came before it because the energy yield came from nuclear fusion rather than fission. Images like these fueled public concerc about the potential dangers of nuclear weapons testing — including the possibility of accidental detonations, of radioactive fallout in the atmosphere, and habitat destruction.
+This is an image of the Ivy Mike test, carried out over the Pacific Ocean by the US in 1952. This was the first test of a thermonuclear device --- an H bomb. It was different from the tests that came before it because the energy yield came from nuclear fusion rather than fission. Images like these fueled public concern about the potential dangers of nuclear weapons testing --- including the possibility of accidental detonations, of radioactive fallout in the atmosphere, and habitat destruction.
 
 This concern led to the signing, in 1963, of the Partial Nuclear Test Ban Treaty, which was signed by the US and the Soviet Union, and prohibited nuclear testing in the atmosphere, in the oceans, and in outer space.
 
-
+<!-- 
 ### Energy scales
 The topic of nuclear explosions is an opportune moment to introduce some energy scales that will be relevant throughout the talk.
 
-The Ivy Mike test was roughly 10 megatons. A megaton, in turn, is roughly the energy released in the ignition of 1 million tons of TNT. Its SI equivalent is 4 billion Joules. For some (insane) reason, astronomers measure energy in units of erg, which is one ten-millionth of a Joule. Whereas a Joule is a kilogram-meter-squared-per-second-squared, an erg is a gram-centimeter-squared-per-second-squared. The energy released by a powerful hurricane is something like a billion times larger than a nuclear detonation - roughly 10^26 erg. And, the energy radiated by the sun throughout its 10 billion year lifetime is another 10 trillion trillion times greater than that, roughly 10^51 ergs.
+The Ivy Mike test was roughly 10 megatons. A megaton, in turn, is roughly the energy released in the ignition of 1 million tons of TNT. Its SI equivalent is 4 billion Joules. For some (insane) reason, astronomers measure energy in units of erg, which is one ten-millionth of a Joule. Whereas a Joule is a kilogram-meter-squared-per-second-squared, an erg is a gram-centimeter-squared-per-second-squared. The energy released by a powerful hurricane is something like a billion times larger than a nuclear detonation - roughly 10^26 erg. And, the energy radiated by the sun throughout its 10 billion year lifetime is another 10 trillion trillion times greater than that, roughly 10^51 ergs. -->
 
 
-### The Vela program
-Anyway, in order to monitor compliance with the Nuclear Test Ban Treaty, the US undertook Project Vela, to be overseen by a team of scientists at the Los Alamos National Laboratory. Project Vela built a dozen satellites, to be flown two-at-a-time in a high-earth orbit and which were equipped with X-ray and gamma-ray detectors that would be sensitive to the signature of a nuclear weapons test. No weapons tests were definitively identified by the Vela missions.
 
-However, on July 2nd, 1967 both of the satellites in orbit at that time registered a 2-second long pulse of gamma-rays. This caught the attention of the Los Alamos scientists as unusual; it was too long to be from a nuclear weapon. Furthermore, analysis of the arrival direction of the photons revealed they did not come from the surface of the earth, but from outer space.
+In order to monitor compliance with the Nuclear Test Ban Treaty, the US undertook Project Vela, to be overseen by a team of scientists at the Los Alamos National Laboratory. Project Vela built a dozen satellites, to be flown two-at-a-time in a high-earth orbit, and which were equipped with X-ray and gamma-ray detectors that would be sensitive to the signature of a nuclear weapons test. No weapons tests were definitively identified by the Vela missions.
 
-The Los Alamos scientists determined the gamma-rays were not a threat, and decided to monitor and catalogue them for clues as to their origin. After 6 years, perhaps a hundred burst candidates were collected. 16 of them were, with very high confidence, not coming from the earth or the sun. These events were referred to as "gamma ray bursts of cosmic origin", and they were announced in a letter to the Astrophysical Journal in 1973.
+However, on July 2nd, 1967 both of the satellites in orbit at that time registered a 2-second long pulse of gamma-rays. This caught the attention of the Los Alamos scientists as unusual; it was too long to be from a nuclear weapon. Furthermore, analysis of the difference in arrival times of the photons at each satellite revealed they were not coming from the earth, but from outer space.
 
+The Los Alamos scientists determined the gamma-ray bursts were not a threat, and decided to monitor and catalogue them for clues as to their origin. After six years, roughly a hundred burst candidates were collected. 16 of them were determined with high confidence not to be coming from the earth or the sun. These events were referred to as "gamma ray bursts of cosmic origin", and they were announced in a [letter to the Astrophysical Journal in 1973]({{root}}/static/history-of-grbs/Klebesadel1973.pdf).
 
-### Early days of GRB theory (1)
-This announcement generated great excitement in the astronomical community, and prompted theorists to propose an impressive variety of scenarios that might explain the bursts.
+The announcement generated great excitement in the astronomical community, and prompted theorists to propose an impressive variety of scenarios that might explain the bursts.
 
+<figure>
+    <a href="{{root}}/static/history-of-grbs/Nemiroff1994PartialTable.png">
+        <img src="{{root}}/static/history-of-grbs/Nemiroff1994PartialTable.png">
+    </a>
+    <figcaption>
+        A partial listing, compiled in a <a href="{{root}}/static/history-of-grbs/Nemiroff1994.pdf">1994 review article on GRB's</a>, of the models that been proposed up until that time. This is only the first of four pages.
+    </figcaption>
+</figure>
 
-### Early days of GRB theory (2)
-This is a partial listing, compiled in a 1994 review article on GRB's, of the models that been proposed up until that time.
-
-The list included an amazing variety of ideas, including
+A partial listing, compiled in a <a href="{{root}}/static/history-of-grbs/Nemiroff1994.pdf">1994 review article on GRB's</a>, of the models that been proposed up until that time. This is only the first of four pages. It includes a fascinating variety of ideas. Among them (highlighted), are
 
 1. Charged, intergalactic dust grains entering the solar system and evaporating
 2. Comets crashing into neutron stars
 3. Chunks breaking off of neutron stars, flying into space and exploding
 4. Supermassive black holes collapsing at the centers of far away galaxies
 
-... and many other exotic and improbable scenarios. Indeed, the 1994 review article continues on like this for four pages.
-
-A useful means of classifying the proposed ideas was by their distance scale - how far the progenitor (the object producing the burst) was from the earth. Of the ideas highlighted here, the progenitors were either
+A useful means of classifying these models was by their distance scale --- how far the progenitor (the object producing the burst) was from the earth. Of the ideas highlighted here, the progenitors were either
 
 1. Somewhere in our solar system
 2. Throughout the galactic disk
 3. In the outskirts of the galaxy, a region called the halo
 4. Spread out across the observable universe, perhaps billions of light-years away
 
-If you look at the list, you'll see that neutron stars are mentioned frequently. They are dead stars, left behind as the byproduct of certain types of supernova explosion. They are generally 1-2 times the mass of the sun, but they are very small — typically 10km across, roughly the size of Manhattan.
+If you look at the list, you'll see that neutron stars are mentioned frequently. They are dead stars, left behind as the byproduct of certain types of supernova explosion. Neutron stars are generally 1 -- 2 times the mass of the sun, but they are very small --- typically 10 km across, roughly the size of Manhattan.
 
 
-### Magnetar flares
-These ideas involving neutron stars were well motivated! There was another class of event, now referred to as giant magnetar flares (magnetars are a fancy name for ultra-magnetized neutron star), which were known to come from neutron stars. The first of these giant magnetar flares was detected in March of 1979, when an extreme pulse of gamma rays, of higher intensity than any of the GRB's, swept through the solar system, saturating the gamma-ray detectors on interplanetary probes as it passed by.
+### The debate over the GRB distance scale
+The theory that GRB's came from isolated neutron stars was well motivated, because there was another class of event which did come from neutron stars. The first of these so-called *giant magnetar flares* was detected in March of 1979, when an extreme pulse of gamma rays, of greater intensity than any of the GRB's, swept through the solar system, saturating the gamma-ray detectors on interplanetary probes as it passed by.
 
-The pulse looked like this, and it was traced to an ancient supernova remnant (called N49) in the Large Magellanic Cloud, a dwarf galaxy in orbit around the Milky Way. There are perhaps 10-15 magnetar candidates spread out throughout the disk of the Milky Way.
+The pulse came from the direction of an ancient supernova remnant (N49) in the Large Magellanic Cloud (LMC), a dwarf galaxy in orbit around the Milky Way, roughly 160,000 light-years distant. Interestingly, in the [paper announcing the March 1979 event]({{root}}/static/history-of-grbs/Mazets1979.pdf), this association was assumed to be coincidental, due to the incredible energy scale implied for the event, if indeed it came from N49. In that paper the authors proposed the source was a foreground object *between* us and N49, perhaps only a few hundred light-years distant.
 
-So, did GRB's and magnetar flares have a common origin? Were the GRB's coming from neutron stars that were perhaps just a little farther off than the galactic magnetars?
+Nevertheless, it was solidified in the following years that the source was a slowly rotating, ultra-magnetized neutron star in the supernova remnant N49, and that the energy scale for giant magnetar flares really was off the charts. There is an excellent [online article by Robert Duncan](http://solomon.as.utexas.edu/magnetar.html) reviewing these events, and [another in Scientific American](https://www.scientificamerican.com/magazine/special-editions/2004/the-secret-lives-of-stars/) by Chrissa Kouveliotou, Robert Duncan, and Chris Thomson.
 
+However, there were a number of problems with the hypothesis that GRB's also came from magnetars. One was the incredible diversity of the GRB light curves.
 
-### Problems with the magnetar hypothesis: the light curves
-There were a number of problems with the magnetar hypothesis. One was the incredible diversity of the GRB light curves — as you can see, some of these were single pulses, others had long, declining tails, and many showed violent, random variability on millisecond time-scales.
+<figure>
+    <a href="{{root}}/static/history-of-grbs/LightCurves.png">
+        <img src="{{root}}/static/history-of-grbs/LightCurves.png">
+    </a>
+    <figcaption>
+        A sampling of the light-curves of GRB's (left), showing the variety of observed light curves. The light curve of the March 1979 giant magnetar flare is on the right.
+    </figcaption>
+</figure>
 
-Meanwhile, the light curves of giant flares commonly exhibited modulations with a well-defined period. For example, the 1979 event showed these 8-second wiggles in its light curve. These are connected to the rotation period of the star. The explosion produced a hot-spot on its surface, which comes in and out of view as the star rotates.
+As you can see, some of the GRB's were single pulses, others had long, declining tails, and many showed high levels of variability on very short (millisecond) time-scales. Meanwhile, the light curves of giant flares commonly exhibited modulations with a well-defined period. For example, the March 1979 event showed 8-second modulations in its light curve. These are connected to the rotation period of the star; the explosion produced a hot-spot on its surface, which comes in and out of view as the star rotates.
 
-Another problem with the magnetar hypothesis was that magnetar flares were seen to recur — sporadically but unambiguously from the same object. GRB's were never seen to happen twice at exactly the same point on the sky.
+Another problem with the magnetar hypothesis was that magnetar flares were seen to recur from the same object. GRB's were never detected twice at exactly the same point on the sky.
 
+Yet another problem with the magnetar hypothesis came from data which emerged gradually throughout the 80's and 90's, as more bursts were detected. The GRB's were coming equally from all directions on the sky. That is, the sources were isotropic. All the known magnetars were either in the disk of the Milky Way or in the LMC.
 
-### Problems with the magnetar hypothesis: isotropy
-Yet another problem with the magnetar hypothesis came from data was emerging gradually throughout the 80's and 90's as more and more bursts were detected. The GRB's were coming equally from all directions on the sky (they were isotropic). All the known magnetars were sitting here, in the disk of the Milky Way.
+Because of the differences between the light curves of GRB's and magnetar flares, and because of the isotropy of the GRB population, the idea that GRB's came from the distant universe (that is, they had a cosmological origin) started gaining attention.
 
+This is because the universe is, at very large distances, homogeneous and isotropic. That means it looks basically the same from one place to another, and that it has no top-bottom, left-right, or front-back. The isotropy of GRB's on the sky was naturally accounted for if the progenitors were spread out across distances over which the universe itself is isotropic.
 
-### The cosmological origin hypothesis
-Because of the differences between the light curves of GRB's and magnetar flares, and because of the isotropy of the GRB population, the idea that GRB's came from the distant universe (that is, they had a cosmological origin) began to gain attention.
-
-This is because the universe is, at very large distances, homogeneous and isotropic. That means it looks basically the same from one place to another, and that it has no top-bottom, left-right, or front-back.
-
-These are images of the infrared universe, and of the cosmic microwave background radiation. Such observations support the isotropy of the universe at very large scales.
 
 
 ### The Lamb-Paczynski debate
-The quesion of the GRB distance scale was addressed in a famous debate in 1995, between Donald Lamb and Bohdan Paczynski. These debates were moderated by some of field's most recognized contributors: Martin Rees and Virginia Trimble.
+The quesion of the GRB distance scale was addressed in a famous debate in 1995, between Donald Lamb and Bohdan Paczynski. These debates were moderated by some of field's most recognized contributors, including Martin Rees and Virginia Trimble. There is a [NASA website commemorating the 1995 debate](https://apod.nasa.gov/diamond_jubilee/debate_1995.html).
 
-Both participants put forward their strongest arguments. Lamb, in trying to rescue the magnetar origin hypothesis, tried to account for their isotropy on the sky by arguing that an otherwise invisible population of ancient neutron stars was hiding out in the galactic halo. They got there, he argued, by receiving kicks from the supernova explosions in which they were born, causing them to go whizzing off, out into the galactic halo, where they sat producing gamma-ray bursts to bewilder and entertain astronomers.
+Lamb, in trying to rescue the magnetar hypothesis, tried to account for the isotropy of GRB's on the sky by arguing that an otherwise invisible population of ancient neutron stars was hiding out in the galactic halo. They got there, he argued, by receiving kicks from the supernova explosions in which they were born, causing them to go whizzing off, out into the galactic halo, where they sat producing gamma-ray bursts to bewilder and entertain astronomers.
 
-He also pointed out that for any explosion to be detectable from across the universe, its luminosity scale would need to be unthinkably large — releasing perhaps 10^52 ergs in less than a minute - more than the sun radiates in 10 billion years. If the explosions were so powerful, one could reason out a contradiction with the rapid variability seen in their light curves. The contradiction arises from a well-known connection between the size of a light source, and the maximum frequency with which it could be observed to flicker on and off. The only way out of the contradiction was to have a less energetic explosion, or, as Paczynski pointed out —
+He also pointed out that, for any explosion to be detectable from across the universe, its luminosity scale would need to be unthinkably large --- releasing perhaps 10^52 ergs in less than a minute. This is more energy than the sun radiates throughout its 10 billion year lifetime. If the explosions were so powerful, one could reason out a contradiction with the rapid variability seen in their light curves. This contradiction arises from a well-known connection between the size of a light source, and the maximum frequency with which it could be observed to flicker on and off. There were two ways out of the contradiction. One was to have a nearer-by, less energetic progenitor (e.g. nearby magnetars).
 
-To stipulate that the explosion accelerate gas to very nearly the speed of light. If that were the case, then the frquency of the flickering appears much faster than it actually is, because of the effects of relativistic time dilation (a consequence of Einstein's special theory of relativity).
+The other was to stipulate that the gas which produced the gamma-rays was moving toward us at nearly the speed of light. If that had been the case, then the frequency of the flickering would appear much faster than it actually is, because of the effects of relativistic time dilation (a consequence of Einstein's special theory of relativity).
 
-Thus Paczynski, in advocating that GRB's came from across the universe, had the isotropy argument on his side. However, his critics were skeptical of the immense luminosity scale this implied, and by the additional requirement that the explosions accelerate gas to very nearly the speed of light.
+Thus Paczynski, in advocating that GRB's came from across the universe, had the isotropy argument on his side. However, his critics were skeptical of the immense power the explosion would need to produce, and by the additional requirement that it accelerate gas to relativistic speeds.
 
 
+### More soon! (work in progress)
+
+<!-- 
 ### The afterglow problem
 There was something else that made the study of GRB's so difficult. It was the lack of any emission at other wavelengths. The fact that every time a burst occurred, nothing, other than the gamma rays lasting seconds to minutes, could be detected in that part of the sky. If there was some type of an afterglow: a longer-lived counterpart to the GRB, that would help ground-based telescopes with far better angular resolution to pinpoint the location on the sky, and look for anything else unusual in the vicinity of the source.
 

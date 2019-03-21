@@ -12,7 +12,8 @@ class Config:
 
 
 def emdash(html):
-    return html.replace(" --- ", " &#8212 ")
+    return html.replace(" --- ", " &#8212 ").replace(" -- ", " &#8211 ")
+
 
 
 def to_html(page, directory):
