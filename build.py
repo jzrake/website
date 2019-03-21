@@ -56,6 +56,7 @@ if __name__ == "__main__":
     makedirs('site/articles/coding-for-scientists')
     copytree('static', 'site/static')
     copyfile('style.css', 'site/style.css')
+    copyfile('index.html', 'site/index.html')
 
 
     file_loader = FileSystemLoader('templates')
