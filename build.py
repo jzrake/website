@@ -57,6 +57,7 @@ if __name__ == "__main__":
     copytree('static', 'site/static')
     copyfile('style.css', 'site/style.css')
     copyfile('index.html', 'site/index.html')
+    copyfile('google3e7662680b878ae5.html', 'site/google3e7662680b878ae5.html')
 
 
     file_loader = FileSystemLoader('templates')
