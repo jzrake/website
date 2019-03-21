@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ root }}/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lora" rel="stylesheet">
+</head>
+
+<body>
+    <div class="contact-container">
+        <div class="top-name">Jonathan Zrake</div>
+        <div class="address">914 Pupin Hall</div>
+        <div class="address">Columbia University</div>
+        <div class="address">538 W. 120th St</div>
+        <div class="address">New York, NY 10027</div>
+        <div class="address">jjz2125@columbia.edu</div>
+    </div>
+
+    <div class="main">
+        <div class="left-nav">
+            <a href="{{ root }}/home.html">    
+                <div class="nav-item {{ 'current' if page == 'home' else '' }}">
+                    Home
+                </div>
+            </a>
+            <a href="{{ root }}/research.html">
+                <div class="nav-item {{ ' current' if page == 'research' else '' }}">
+                    Research
+                </div>
+            </a>
+            <a href="{{ root }}/teaching.html">
+                <div class="nav-item {{ 'current' if page == 'teaching' else '' }}">
+                    Teaching
+                </div>
+            </a>
+            <a href="{{ root }}/articles.html">
+                <div class="nav-item {{ 'current' if page == 'articles' else '' }}">
+                    Articles
+                </div>
+            </a>
+        </div>
+        <div class="content">
+
+            {{ content }}
+
+            <div class="links">
+                <a target="_blank" href="static/zrake-cv.pdf">CV</a>
+                <a target="_blank" href="https://ui.adsabs.harvard.edu/#search/q=author%3A%22zrake%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">ADS</a>
+                <a target="_blank" href="https://arxiv.org/search/?query=zrake&searchtype=all&source=header">arXiv</a>
+                <a target="_blank" href="https://github.com/jzrake">github</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
